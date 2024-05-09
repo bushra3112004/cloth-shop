@@ -12,6 +12,12 @@ html {
 *:after {
     box-sizing: inherit;
 }
+.headings{
+    font-size: 60px;
+}
+.headingss{
+    font-size: 40px;
+}
 
 .column {
     float: left;

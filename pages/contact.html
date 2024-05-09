@@ -106,22 +106,20 @@
     </nav>
     <!--navbar end-->
 <!--contact form-->
-<h2>Responsive Contact Section</h2>
-<p>Resize the browser window to see the effect.</p>
 
 <div class="container">
-    <div style="text-align:center">
-        <h2>Contact Us</h2>
-        <p>Swing by for a cup of coffee, or leave us a message:</p>
+    <div  style="text-align:center">
+        <h1 class="fs-1 mt-5">Contact Us</h1>
+        
     </div>
-    <div class="row">
+    <div class="row border border-dark mb-5">
         <div class="column">
-            <img src="/w3images/map.jpg" style="width:100%">
+            <img src="../image/contact-img/contact.webp" class="mt-5" style="width:100%">
         </div>
         <div class="column">
-            <form action="/action_page.php">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <form >
+                <label for="fname" >First Name</label>
+                <input type="text" id="fname"  name="firstname" placeholder="Your name..">
                 <label for="lname">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
                 <label for="country">City</label>
@@ -132,7 +130,7 @@
                 </select>
                 <label for="subject">Subject</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="bg-dark m-3" style="width: 100px;" value="CLICK" onclick="alert('thank you for filling form' )">
             </form>
         </div>
     </div>

@@ -109,29 +109,31 @@
 
 
 
-    <body>
+    <body >
     
-        <h1 class="text-center">Login Form</h1>
-    <div class="align-item-center">
-        <form>
+        <h1 class="text-center mt-3">Login Form</h1>
+    <div class=" container justify-content-center " style="width: 70%;">
+        <form class="text-align-center">
             <div class="imgcontainer ">
                 <img src="../image/profile.png" alt="Avatar" class="">
             </div>
     
             <div class="container">
+                <i class="fa fa-user icon"></i>
                 <label for="uname"><b>Username</b></label>
                 <input type="text" placeholder="Enter Username" name="uname" required>
     
+                <i class="fa fa-key icon"></i>
                 <label for="psw"><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" name="psw" required>
     
-                <button type="submit">Login</button>
+                <button type="submit" value="CLICK" onclick="alert('Thank You for Login🤗🤗' )">Login</button>
                 <label>
                     <input type="checkbox" checked="checked" name="remember"> Remember me
                 </label>
             </div>
     
-            <div class="container" style="background-color:#f1f1f1">
+            <div class="container mb-5" style="background-color:#f1f1f1">
                 <button type="button" class="cancelbtn">Cancel</button>
                 <span class="psw">Forgot <a href="#">password?</a></span>
             </div>

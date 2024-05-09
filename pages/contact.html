@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
 
     <!-- jS -->
     <link rel="script" href="./js/index.js">
@@ -104,131 +105,160 @@
 
     </nav>
     <!--navbar end-->
+<!--contact form-->
+<h2>Responsive Contact Section</h2>
+<p>Resize the browser window to see the effect.</p>
 
+<div class="container">
+    <div style="text-align:center">
+        <h2>Contact Us</h2>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="/w3images/map.jpg" style="width:100%">
+        </div>
+        <div class="column">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="country">City</label>
+                <select id="country" name="country">
+                    <option value="Rahuri">Rahuri</option>
+                    <option value="Shirdi">Shirdi</option>
+                    <option value="Ahmadnagar">Ahmadnagar</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>
 
+<!--contact form-->
 
-
-    <!-- Footer -->
-    <footer class="text-center text-lg-start text-white" style="background-color: #252525">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-            <!-- Section: Links -->
-            <section class="">
-                <!--Grid row-->
-                <div class="row">
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Pages</h6>
-                        <p>
-                            <a class="text-white" href="./index.html">Home</a>
-                        </p>
-                        <p>
-                            <a class="text-white" href="../pages/product.html">Product</a>
-                        </p>
-                        <p>
-                            <a class="text-white" href="../pages/contact.html">Contact</a>
-                        </p>
-                        <p>
-                            <a class="text-white" href="../pages/about.html">About-Us</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <hr class="w-100 clearfix d-md-none" />
-
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-                        <p>
-                            <a class="text-white" href="../pages/product.html">women</a>
-                        </p>
-                        <p>
-                            <a class="text-white" href="../pages/product.html">Men</a>
-                        </p>
-                        <p>
-                            <a class="text-white" href="../pages/product.html">Children</a>
-                        </p>
-                        <p>
-                            <a class="text-white" href="../pages/product.html">Other</a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <hr class="w-100 clearfix d-md-none" />
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">
-                            Useful links
-                        </h6>
-                        <p>
-                            <a class="text-white" href="../pages/about.html">About-us</a>
-                        </p>
-                        <p>
-                            <a class="text-white" href="../pages/contact.html">Contact Us</a>
-                        </p>
-                        <p>
-                            <a class="text-white">Shipping Rates</a>
-                        </p>
-                        <p>
-                            <a class="text-white">Help</a>
-                        </p>
-                    </div>
-
-                    <!-- Grid column -->
-
-                    <hr class="w-100 clearfix d-md-none" />
-
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                        <p><i class="fas fa-home mr-3"></i>CJW2+XX9,Rahuri Factory,413706</p>
-                        <p type="mail"><i class="fas fa-envelope mr-3"></i><a href="clothshop.netlify.com"
-                                class="footer-links">clothshop.netlify.com</a></p>
-                        <p><i class="fas fa-phone mr-3"></i><a href="tel:+914578903298"> +91-4578903298</a></p>
-                        <p><i class="fas fa-print mr-3"></i><a href="tel:+919887237909">+91-988 7237 909</a></p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">
-                            Social Links
-                        </h6>
-                        <p>
-                            <a class="btn-floating " class="text-white" role="button"><i
-                                    class="fab fa-facebook-f"></i></a>
-                        </p>
-                        <p>
-                            <a class=" btn-floating " class="text-white" role="button"><i
-                                    class="fab fa-twitter"></i></a>
-
-                        </p>
-                        <p>
-                            <a class=" btn-floating " class="text-white" role="button"><i class="fab fa-google"></i></a>
-                        </p>
-                        <p>
-                            <a class=" btn-floating " class="text-white" role="button"><i
-                                    class="fab fa-instagram"></i></a>
-                        </p>
-                    </div>
-
-                    <!-- Grid column -->
+<!-- Footer -->
+<footer class="text-center text-lg-start text-white" style="background-color: #252525">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+            <!--Grid row-->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Pages</h6>
+                    <p>
+                        <a class="text-white" href="./index.html">Home</a>
+                    </p>
+                    <p>
+                        <a class="text-white" href="../pages/product.html">Product</a>
+                    </p>
+                    <p>
+                        <a class="text-white" href="../pages/contact.html">Contact</a>
+                    </p>
+                    <p>
+                        <a class="text-white" href="../pages/about.html">About-Us</a>
+                    </p>
                 </div>
-                <!--Grid row-->
-            </section>
-            <!-- Section: Links -->
-            <hr class="my-3">
+                <!-- Grid column -->
 
-            <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none" />
 
-            <p class="text-center font-weight-bold">© 2024 Copyright: clothshop.netlify.com</p>
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                    <p>
+                        <a class="text-white" href="../pages/product.html">women</a>
+                    </p>
+                    <p>
+                        <a class="text-white" href="../pages/product.html">Men</a>
+                    </p>
+                    <p>
+                        <a class="text-white" href="../pages/product.html">Children</a>
+                    </p>
+                    <p>
+                        <a class="text-white" href="../pages/product.html">Other</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
 
-            <!-- Grid column -->
-            <!-- Grid container -->
-    </footer>
-    <!-- Footer -->
+                <hr class="w-100 clearfix d-md-none" />
 
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">
+                        Useful links
+                    </h6>
+                    <p>
+                        <a class="text-white" href="../pages/about.html">About-us</a>
+                    </p>
+                    <p>
+                        <a class="text-white" href="../pages/contact.html">Contact Us</a>
+                    </p>
+                    <p>
+                        <a class="text-white">Shipping Rates</a>
+                    </p>
+                    <p>
+                        <a class="text-white">Help</a>
+                    </p>
+                </div>
+
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                    <p><i class="fas fa-home mr-3"></i>CJW2+XX9,Rahuri Factory,413706</p>
+                    <p type="mail"><i class="fas fa-envelope mr-3"></i><a href="clothshop.netlify.com"
+                            class="footer-links">clothshop.netlify.com</a></p>
+                    <p><i class="fas fa-phone mr-3"></i><a href="tel:+914578903298"> +91-4578903298</a></p>
+                    <p><i class="fas fa-print mr-3"></i><a href="tel:+919887237909">+91-988 7237 909</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">
+                        Social Links
+                    </h6>
+                    <p>
+                        <a class="btn-floating " class="text-white" role="button"><i class="fab fa-facebook-f"></i></a>
+                    </p>
+                    <p>
+                        <a class=" btn-floating " class="text-white" role="button"><i class="fab fa-twitter"></i></a>
+
+                    </p>
+                    <p>
+                        <a class=" btn-floating " class="text-white" role="button"><i class="fab fa-google"></i></a>
+                    </p>
+                    <p>
+                        <a class=" btn-floating " class="text-white" role="button"><i class="fab fa-instagram"></i></a>
+                    </p>
+                </div>
+
+                <!-- Grid column -->
+            </div>
+            <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+        <hr class="my-3">
+
+        <!-- Grid column -->
+
+        <p class="text-center font-weight-bold">© 2024 Copyright: clothshop.netlify.com</p>
+
+        <!-- Grid column -->
+        <!-- Grid container -->
+</footer>
+<!-- Footer -->
+
+   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

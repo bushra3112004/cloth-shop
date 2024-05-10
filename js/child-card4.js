@@ -1,12 +1,12 @@
-function changeimage11(imageName11) {
-    const mainimage11 = document.getElementById('main-img11')
-    mainimage11.src = imageName11;
+function changeimage12(imageName12) {
+    const mainimage12 = document.getElementById('main-img12')
+    mainimage12.src = imageName12;
 }
 
-function inc11() {
-    const quantityText = document.getElementById("quantity-text11");
-    const showQuantity = document.getElementById("show-quantity11");
-    const showTotal = document.getElementById("show-total11");
+function inc12() {
+    const quantityText = document.getElementById("quantity-text12");
+    const showQuantity = document.getElementById("show-quantity12");
+    const showTotal = document.getElementById("show-total12");
     let quantity = parseInt(quantityText.innerText);
     if (quantity < 3) {
         quantityText.innerText = ++quantity;
@@ -14,16 +14,16 @@ function inc11() {
     else {
         alert("you cann't add more than 3 items ")
     }
-    showQuantity.innerText = `Item: ${quantity}×1500`;
+    showQuantity.innerText = `Item: ${quantity}×2500`;
 
-    showTotal.innerText = `Total: ${quantity * 1500}`;
+    showTotal.innerText = `Total: ${quantity * 2500}`;
 
 }
-function dec11() {
+function dec12() {
 
-    const quantityText = document.getElementById("quantity-text11");
-    const showQuantity = document.getElementById("show-quantity11");
-    const showTotal = document.getElementById("show-total11");
+    const quantityText = document.getElementById("quantity-text12");
+    const showQuantity = document.getElementById("show-quantity12");
+    const showTotal = document.getElementById("show-total12");
     let quantity = parseInt(quantityText.innerText);
     if (quantity > 1) {
         quantityText.innerText = --quantity;
@@ -31,8 +31,8 @@ function dec11() {
     else {
         alert("you cann't add less than 1 items")
     }
-    showQuantity.innerText = `Item: ${quantity}×1500`;
-    showTotal.innerText = `Total: ${quantity * 1500}`;
+    showQuantity.innerText = `Item: ${quantity}×2500`;
+    showTotal.innerText = `Total: ${quantity * 2500}`;
 
 }
 

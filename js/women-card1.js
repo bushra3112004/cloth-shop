@@ -15,9 +15,9 @@ function inc1() {
     else {
         alert("you cann't add more than 3 items ")
     }
-    showQuantity.innerText = `Item: ${quantity}×99,999`;
+    showQuantity.innerText = `Item: ${quantity}×1999`;
 
-    showTotal.innerText = `Total: ${quantity * 99999}`;
+    showTotal.innerText = `Total: ${quantity * 1999}`;
 
 }
 function dec1() {
@@ -32,8 +32,8 @@ function dec1() {
     else {
         alert("you cann't add less than 1 items")
     }
-    showQuantity.innerText = `Item: ${quantity}×99,999`;
-    showTotal.innerText = `Total: ${quantity * 99999}`;
+    showQuantity.innerText = `Item: ${quantity}×1999`;
+    showTotal.innerText = `Total: ${quantity * 1999}`;
 
 }
 

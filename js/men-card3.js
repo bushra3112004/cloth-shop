@@ -1,4 +1,4 @@
-function changeimage7(imageName6) {
+function changeimage7(imageName7) {
     const mainimage7 = document.getElementById('main-img7')
     mainimage7.src = imageName7;
 }

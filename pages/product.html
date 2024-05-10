@@ -497,7 +497,7 @@
                     <img src="../image/product-img/kurta2.jpg" class="m-2" style="width: 20%;"
                         onclick="changeimage7('../image/product-img/kurta2.jpg')" />
                     <img src="../image/product-img/kurta3.jpg " class="m-2" style="width: 20%;"
-                        onclick="changeimage7('../image/product-img/jeans3.jpg')" />
+                        onclick="changeimage7('../image/product-img/kurta3.jpg')" />
                     <img src="../image/product-img/kurta4.png" class="m-2" style="width: 20%;"
                         onclick="changeimage7('../image/product-img/kurta4.png')" />
                 </div>
@@ -542,12 +542,55 @@
 
     <!--card4-->
     <div class="col">
-        <div class="card">
-            <img src="../cloth-shop/image/home-img/child1.jpg" class="card-img-top" alt="...">
+        <div class="card mt-5">
+            <div class="d-flex flex-column">
+                <img src="../image/product-img/jacket1.jpg" id="main-img8" class=" card-img-top ">
+    
+                <div class="d-flex flex-row p-1 ">
+                    <div class="img-container d-flex p-2">
+                        <img src="../image/product-img/jacket1.jpg" class="m-2" style="width: 20%;"
+                            onclick="changeimage8('../image/product-img/jacket1.jpg')" />
+                        <img src="../image/product-img/jacket2.png" class="m-2" style="width: 20%;"
+                            onclick="changeimage8('../image/product-img/jacket2.png')" />
+                        <img src="../image/product-img/jacket3.jpg" class="m-2" style="width: 20%;"
+                            onclick="changeimage8('../image/product-img/jacket3.jpg')" />
+                        <img src="../image/product-img/jacket4.jpg" class="m-2" style="width: 20%;"
+                            onclick="changeimage8('../image/product-img/jacket4.jpg')" />
+                    </div>
+                </div>
+            </div>
+            <hr>
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
+                <h5 class="card-title text-center fs-1 fw-bold head">Men's Jacket</h5>
+                <p class="card-text texts">this mens jacket is very beautiful for women buy now .</p>
+                <div class="price fs-4 texts">
+                    <p class="fw-bold"> &nbsp;<b>Price: ₹2600</b></p>
+                    <p id="show-quantity8" class=" fw-bold">Item: 1 × 2600</p>
+                    <p id="show-total8" class="fw-bold">Total: 2600</p>
+                </div>
+    
+                <div style="display: flex; margin: 5px;">
+                    <div>
+                        <span>
+                            <h5>QTY:</h5>
+                        </span>
+                    </div>
+                    <div class="Product-btn1 ms-5" style="margin-left: 15px;">
+                        <span style="cursor: pointer;">
+                            <img src="../image/product-img/minus (1).png" height="20px" onclick="dec8()">
+                        </span>
+                        <span class="h2-text" id="quantity-text8"><b>1</b></span>
+                        <span style="cursor: pointer;">
+                            <img src="../image/product-img/plus (1).png" height="20px" onclick="inc8()">
+                        </span>
+                    </div>
+                    <hr>
+                    <div>
+                        <br>
+                        <button type="button" class="add-btn bg-dark text-white mt-4" onclick="add()"><a
+                                href="../pages/order.html">BUY NOW</button></a>
+                    </div>
+                </div><br>
             </div>
         </div>
     </div>

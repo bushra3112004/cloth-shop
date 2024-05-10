@@ -1,6 +1,6 @@
-function changeimage1(imageName1) {
-    const mainimage1 = document.getElementById('main-img1')
-    mainimage1.src = imageName1;
+function changeimage2(imageName2) {
+    const mainimage2 = document.getElementById('main-img2')
+    mainimage2.src = imageName2;
 }
 
 function inc2() {

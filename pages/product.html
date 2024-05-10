@@ -603,16 +603,58 @@
 <hr>
 <h1 class="text-center m-3 font-weight-bold mt-5 ft">Children's Wear</h1>
 
-
 <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 p-3">
     <!--card1-->
     <div class="col">
-        <div class="card">
-            <img src="../cloth-shop/image/home-img/kurti1.webp" class="card-img-top" alt="...">
+        <div class="card mt-5">
+            <div class="d-flex flex-column">
+                <img src="../image/home-img/child1.jpg" id="main-img9" class=" card-img-top ">
+    
+                <div class="d-flex flex-row p-1 ">
+                    <div class="img-container d-flex p-2">
+                        <img src="../image/home-img/child1.jpg" class="m-2" style="width: 20%;"
+                            onclick="changeimage9('../image/home-img/child1.jpg')" />
+                        <img src="../image/home-img/child2.jpg" class="m-2" style="width: 20%;"
+                            onclick="changeimage9('../image/home-img/child2.jpg')" />
+                        <img src="../image/home-img/child3.jpg" class="m-2" style="width: 20%;"
+                            onclick="changeimage9('../image/home-img/child3.jpg')" />
+                        <img src="../image/home-img/child4.jpg" class="m-2" style="width: 20%;"
+                            onclick="changeimage9('../image/home-img/child4.jpg')" />
+                    </div>
+                </div>
+            </div>
+            <hr>
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
+                <h5 class="card-title text-center fs-1 fw-bold head">Fancy Child Wear</h5>
+                <p class="card-text texts">this child wear is very beautiful for women buy now .</p>
+                <div class="price fs-4 texts">
+                    <p class="fw-bold"> &nbsp;<b>Price: ₹1000</b></p>
+                    <p id="show-quantity9" class=" fw-bold">Item: 1 × 1000</p>
+                    <p id="show-total9" class="fw-bold">Total: 1000</p>
+                </div>
+    
+                <div style="display: flex; margin: 5px;">
+                    <div>
+                        <span>
+                            <h5>QTY:</h5>
+                        </span>
+                    </div>
+                    <div class="Product-btn1 ms-5" style="margin-left: 15px;">
+                        <span style="cursor: pointer;">
+                            <img src="../image/product-img/minus (1).png" height="20px" onclick="dec9()">
+                        </span>
+                        <span class="h2-text" id="quantity-text9"><b>1</b></span>
+                        <span style="cursor: pointer;">
+                            <img src="../image/product-img/plus (1).png" height="20px" onclick="inc9()">
+                        </span>
+                    </div>
+                    <hr>
+                    <div>
+                        <br>
+                        <button type="button" class="add-btn bg-dark text-white mt-4" onclick="add()"><a
+                                href="../pages/order.html">BUY NOW</button></a>
+                    </div>
+                </div><br>
             </div>
         </div>
     </div>

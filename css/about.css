@@ -86,3 +86,15 @@ html {
         display: block;
     }
 }
+
+.bodys{
+
+    background-color: white;
+    color: black;
+
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}

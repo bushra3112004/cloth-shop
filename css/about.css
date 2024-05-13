@@ -25,7 +25,13 @@ html {
     margin-bottom: 16px;
     padding: 0 8px;
 }
-.text{
+.txt{
+    font-size: 22px;
+}
+.texts{
+    font-size: 20px;
+}
+.textss {
     font-size: 20px;
 }
 
@@ -65,7 +71,9 @@ html {
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 60%;
+    margin-left: 70px;
+    margin-bottom: 10px;
 }
 
 .button:hover {

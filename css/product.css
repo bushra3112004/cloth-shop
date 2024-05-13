@@ -80,3 +80,7 @@
 .text{
     font-size: 35px;
 }
+.cards{
+    border: 3px solid black;
+    border-radius: 2px 2px 2px 2px;
+}

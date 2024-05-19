@@ -1,4 +1,4 @@
-# Online cloth Shop 🛍️  
+# Online Cloth Shop 🛍️  
 
 ### Introduction
 
@@ -33,4 +33,4 @@
 ![alt text](image/readme-file/Login.png)
 
 ### Order
-![alt text](image/readme-file/order.png)
+![alt text](image/readme-file/Order.png)

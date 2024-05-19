@@ -16,21 +16,21 @@
 
 
 ### Product Page
-![alt text](image/readme-file/Product.png)
+![alt text](image/readme-file/Product.png.jpeg)
 
 
 ### Contact
-![alt text](image/readme-file/Contact.png)
+![alt text](image/readme-file/Contact.png.jpeg)
 
 
 ### Contact
-![alt text](image/readme-file/About.png)
+![alt text](image/readme-file/About.png.jpeg)
 
 ### About
-![alt text](image/readme-file/About.png)
+![alt text](image/readme-file/About.png.jpeg)
 
 ### Login
-![alt text](image/readme-file/Login.png)
+![alt text](image/readme-file/Login.png.jpeg)
 
 ### Order
-![alt text](image/readme-file/Order.png)
+![alt text](image/readme-file/Order.png.jpeg)

@@ -50,9 +50,7 @@ body {
     margin: 40px;
     width: 700px;
     padding: 10px;
-    
-    
-}
+    }
 
 input[type=text] {
     width: 100%;
@@ -100,4 +98,15 @@ span.price {
     .col-15 {
         margin-bottom: 20px;
     }
+        .containerss {
+    
+            background-color: rgb(222, 228, 222);
+            border: 2px;
+            margin: 40px;
+            width: 400px;
+            padding: 10px;
+        }
+        .btn{
+            width: 10px;
+        }
 }
